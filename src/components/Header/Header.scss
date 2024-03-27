@@ -1,0 +1,31 @@
+.header {
+  padding: 15px 0;
+  background: #fff;
+  .header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      color: red;
+      font-size: 28px;
+      span {
+        color: #000;
+      }
+    }
+    .header__right {
+      display: flex;
+      align-items: center;
+      .navbar__list {
+        display: flex;
+        column-gap: 30px;
+        font-size: 20px;
+        margin-right: 60px;
+      }
+      .header__icons {
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+      }
+    }
+  }
+}
