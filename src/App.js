@@ -1,12 +1,12 @@
 import './App.scss';
-import Admin from './pages/Admin/Admin';
-import Registr from './pages/Register/Registr';
+import Header from "./components/Header";
+import VideoBackground from "./components/videoBacckground";
 
 function App() {
   return (
-    <div className="app">
-      <Registr/>
-    {/* <Admin/> */}
+    <div className="App">
+      <Header />
+      <VideoBackground />
     </div>
   );
 }
