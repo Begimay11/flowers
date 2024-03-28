@@ -1,12 +1,15 @@
 import './App.scss';
 import Header from "./components/Header";
 import VideoBackground from "./components/videoBacckground";
+import RoutesLink from './routes/Routes';
 
 function App() {
+
   return (
-    <div className="App">
+    <div className="app">
       <Header />
-      <VideoBackground />
+      {/* <VideoBackground /> */}
+      <RoutesLink/>
     </div>
   );
 }
